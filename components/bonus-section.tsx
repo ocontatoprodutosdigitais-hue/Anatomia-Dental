@@ -5,27 +5,27 @@ import { Star } from 'lucide-react';
 const bonuses = [
   {
     label: 'BÔNUS 1',
-    name: 'Revisão Express de Osteologia',
+    name: 'Revisão Express de Anatomia Dental',
     description:
-      'Um material de consulta rápida com os principais pontos da osteologia organizados de forma visual e objetiva para revisar o conteúdo antes das aulas, provas e avaliações.',
+      'Um material de consulta rápida com os principais grupos dentários, características anatômicas e diferenças organizadas de forma visual para revisar antes das aulas, provas e avaliações.',
     oldPrice: 'De R$ 17,00',
-    image: '/images/osteo/bonus-revisao-express.webp',
+    image: '/images/dental/bonus-1.png',
   },
   {
     label: 'BÔNUS 2',
-    name: 'Teste Sua Identificação',
+    name: 'Teste Sua Identificação Dental',
     description:
-      'Coleção de exercícios visuais para praticar a identificação de ossos, estruturas e acidentes ósseos, acompanhados de gabarito para conferir as respostas.',
+      'Uma coleção de exercícios visuais para praticar a identificação de dentes, grupos, arcadas e lados, acompanhada de respostas para conferir seu raciocínio.',
     oldPrice: 'De R$ 19,90',
-    image: '/images/osteo/bonus-teste-identificacao.webp',
+    image: '/images/dental/bonus-2.png',
   },
   {
     label: 'BÔNUS 3',
-    name: 'Flashcards de Osteologia Veterinária',
+    name: 'Flashcards de Anatomia Dental',
     description:
-      'Cartões de estudo desenvolvidos para facilitar a memorização das principais estruturas ósseas através de revisões rápidas, práticas e repetitivas.',
+      'Cartões visuais desenvolvidos para reforçar rapidamente características, cúspides, raízes, vistas anatômicas e diferenças entre dentes semelhantes.',
     oldPrice: 'De R$ 24,00',
-    image: '/images/osteo/bonus-flashcards.webp',
+    image: '/images/dental/bonus-3.png',
   },
 ];
 
@@ -41,18 +41,18 @@ function StarRow() {
 
 export function BonusSection() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#2F2925' }}>
+      <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#08124D' }}>
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
-          <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#D8845E' }}>
+          <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#D7A52D' }}>
             Bônus Inclusos
           </span>
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#FBF8F2' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#FCFBF8' }}>
             Além do Material Principal, Você Recebe Mais 3 Bônus
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: 'rgba(251,248,242,0.90)' }}>
-            Recursos extras para complementar seus estudos e reforçar os principais conteúdos de Osteologia.
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: 'rgba(252,251,248,0.90)' }}>
+            Recursos extras para complementar seus estudos e reforçar os principais conteúdos de Anatomia Dental.
           </p>
         </div>
 
@@ -63,16 +63,16 @@ export function BonusSection() {
               key={bonus.label}
               className="bonus-card flex w-full flex-col rounded-[20px] p-5 sm:p-6"
               style={{
-                backgroundColor: '#FBF8F2',
-                border: '1px solid rgba(90,58,39,0.15)',
-                boxShadow: '0 12px 30px rgba(47, 41, 37, 0.28)',
+                backgroundColor: '#FCFBF8',
+                border: '1px solid rgba(8,18,77,0.12)',
+                boxShadow: '0 12px 30px rgba(8, 18, 77, 0.28)',
                 transition: 'all 250ms ease',
               }}
             >
               {/* Badge */}
               <span
                 className="self-start rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide"
-                style={{ backgroundColor: '#5A3A27', color: '#FBF8F2' }}
+                style={{ backgroundColor: '#1255C8', color: '#FCFBF8' }}
               >
                 {bonus.label}
               </span>
@@ -93,18 +93,18 @@ export function BonusSection() {
               </div>
 
               {/* Nome */}
-              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#5A3A27' }}>
+              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#08124D' }}>
                 {bonus.name}
               </h3>
 
               {/* Descrição */}
-              <p className="mt-2 flex-1 text-sm leading-relaxed" style={{ color: '#8A7862' }}>
+              <p className="mt-2 flex-1 text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>
                 {bonus.description}
               </p>
 
               {/* Preço + selo */}
-              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: 'rgba(90,58,39,0.15)' }}>
-                <span className="text-sm line-through" style={{ color: '#8A7862' }}>
+              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: 'rgba(8,18,77,0.12)' }}>
+                <span className="text-sm line-through" style={{ color: '#5B6B8A' }}>
                   {bonus.oldPrice}
                 </span>
                 <span
@@ -122,8 +122,8 @@ export function BonusSection() {
       <style>{`
         .bonus-card:hover {
           transform: translateY(-4px);
-          border-color: #9D4E35;
-          box-shadow: 0 20px 42px rgba(47, 41, 37, 0.34);
+          border-color: #1255C8;
+          box-shadow: 0 20px 42px rgba(8, 18, 77, 0.34);
         }
       `}</style>
     </section>

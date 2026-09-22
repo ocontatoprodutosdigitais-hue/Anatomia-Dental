@@ -8,22 +8,22 @@ const TOTAL_PRICE = 'R$ 80,80';
 const CHECKOUT_URL = 'https://pay.cakto.com.br/jfu5bmc_1099946';
 
 /* O que está incluído na oferta (destaque principal do pacote) */
-const highlightFeature: [string, string] = ['+140', 'Recursos Visuais de Osteologia'];
+const highlightFeature: [string, string] = ['140', 'páginas visuais de Anatomia Dental'];
 
 /* Conteúdos por volume */
 const includedFeatures: [string, string][] = [
-  ['10 páginas', 'Fundamentos'],
-  ['32 páginas', 'Membro Torácico'],
-  ['32 páginas', 'Membro Pélvico'],
-  ['22 páginas', 'Coluna Vertebral'],
-  ['12 páginas', 'Tórax'],
-  ['40 páginas', 'Crânio'],
+  ['24 páginas', 'Fundamentos da Anatomia Dental'],
+  ['24 páginas', 'Incisivos e Caninos Permanentes'],
+  ['24 páginas', 'Pré-Molares Permanentes'],
+  ['32 páginas', 'Molares Permanentes'],
+  ['18 páginas', 'Dentição Decídua'],
+  ['18 páginas', 'Identificação Dental na Prática'],
 ];
 
 const bonuses = [
-  'Bônus #1 — Revisão Prática de Osteologia',
-  'Bônus #2 — Teste Sua Identificação',
-  'Bônus #3 — Flashcards de Acidentes Ósseos',
+  'Bônus #1 — Revisão Express de Anatomia Dental',
+  'Bônus #2 — Teste Sua Identificação Dental',
+  'Bônus #3 — Flashcards de Anatomia Dental',
 ];
 
 function goToCheckout(url: string) {
@@ -35,14 +35,14 @@ function goToCheckout(url: string) {
 
 export function PricingSection() {
   return (
-    <section id="checkout" className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FBF8F2' }}>
+    <section id="checkout" className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FCFBF8' }}>
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#5A3A27' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#08124D' }}>
             
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#8A7862' }}>
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
             
           </p>
         </div>
@@ -52,9 +52,9 @@ export function PricingSection() {
           <div
             className="relative flex w-full flex-col rounded-[22px] p-6 pt-10 sm:p-8 sm:pt-11"
             style={{
-              backgroundColor: '#2F2925',
-              border: '2px solid #9D4E35',
-              boxShadow: '0 24px 55px rgba(47, 41, 37, 0.45)',
+              backgroundColor: '#08124D',
+              border: '2px solid #1255C8',
+              boxShadow: '0 24px 55px rgba(8, 18, 77, 0.45)',
             }}
           >
             {/* Badge OFERTA ESPECIAL */}
@@ -68,16 +68,16 @@ export function PricingSection() {
 
             {/* Nome */}
             <div className="text-center">
-              <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-balance" style={{ color: '#FBF8F2' }}>
-                Osteologia Veterinária
+              <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-balance" style={{ color: '#FCFBF8' }}>
+                Guia Visual de Anatomia Dental
               </h3>
             </div>
 
             {/* Mockup grande */}
             <div className="mt-5 flex justify-center">
               <img
-                src="/images/osteo/pricing-colecao.webp"
-                alt="Coleção Osteologia Veterinária completa com os volumes, os três bônus e o selo de garantia de 7 dias"
+                src="/images/dental/pricing-colecao.png"
+                alt="Coleção completa do Guia Visual de Anatomia Dental com os 6 volumes, os três bônus e o selo de garantia de 7 dias"
                 className="w-full max-w-[440px] h-auto object-contain drop-shadow-xl"
                 loading="lazy"
               />
@@ -92,8 +92,8 @@ export function PricingSection() {
                 >
                   <Check size={15} strokeWidth={3} aria-hidden="true" />
                 </span>
-                <span className="text-base sm:text-lg leading-snug" style={{ color: '#FBF8F2' }}>
-                  <span className="font-bold" style={{ color: '#FBF8F2' }}>{highlightFeature[0]}</span>{' '}
+                <span className="text-base sm:text-lg leading-snug" style={{ color: '#FCFBF8' }}>
+                  <span className="font-bold" style={{ color: '#FCFBF8' }}>{highlightFeature[0]}</span>{' '}
                   <span className="font-semibold">{highlightFeature[1]}</span>
                 </span>
               </li>
@@ -106,7 +106,7 @@ export function PricingSection() {
                   >
                     <Check size={14} strokeWidth={3} aria-hidden="true" />
                   </span>
-                  <span className="text-sm sm:text-base leading-snug" style={{ color: '#FBF8F2' }}>
+                  <span className="text-sm sm:text-base leading-snug" style={{ color: '#FCFBF8' }}>
                     <span className="font-bold">{num}</span> — {rest}
                   </span>
                 </li>
@@ -120,7 +120,7 @@ export function PricingSection() {
                   <span className="mt-0.5 shrink-0 text-base leading-none" aria-hidden="true">
                     🎁
                   </span>
-                  <span className="text-sm sm:text-base font-semibold leading-snug" style={{ color: '#FBF8F2' }}>
+                  <span className="text-sm sm:text-base font-semibold leading-snug" style={{ color: '#FCFBF8' }}>
                     {bonus}
                   </span>
                 </li>
@@ -128,20 +128,20 @@ export function PricingSection() {
             </ul>
 
             {/* Separador antes da área de preço */}
-            <div className="mt-6 mb-5 h-px w-full" style={{ backgroundColor: 'rgba(251,248,242,0.18)' }} />
+            <div className="mt-6 mb-5 h-px w-full" style={{ backgroundColor: 'rgba(252,251,248,0.18)' }} />
 
             {/* Área de preço */}
             <div className="text-center">
-              <p className="text-sm" style={{ color: 'rgba(251,248,242,0.75)' }}>
+              <p className="text-sm" style={{ color: 'rgba(252,251,248,0.75)' }}>
                 Valor total: <span className="line-through">{TOTAL_PRICE}</span>
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#D8845E' }}>
+              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#D7A52D' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>
                 {PRICE}
               </p>
-              <p className="mt-3 text-xs sm:text-sm font-medium" style={{ color: 'rgba(251,248,242,0.75)' }}>
+              <p className="mt-3 text-xs sm:text-sm font-medium" style={{ color: 'rgba(252,251,248,0.75)' }}>
                 Pagamento único • Sem mensalidade
               </p>
             </div>
@@ -166,11 +166,11 @@ export function PricingSection() {
                 e.currentTarget.style.transform = 'translateY(0)';
               }}
             >
-              QUERO ACESSAR A OSTEOLOGIA VETERINÁRIA
+              QUERO ACESSAR O GUIA VISUAL
             </button>
 
             {/* Linha de confiança */}
-            <p className="mt-5 text-center text-xs sm:text-sm font-medium leading-relaxed" style={{ color: 'rgba(251,248,242,0.85)' }}>
+            <p className="mt-5 text-center text-xs sm:text-sm font-medium leading-relaxed" style={{ color: 'rgba(252,251,248,0.85)' }}>
               🔒 Compra segura • 💳 Pagamento protegido • ⚡ Acesso imediato • ✅ 7 dias de garantia
             </p>
           </div>
