@@ -13,14 +13,14 @@ export function FinalCta() {
   };
 
   return (
-      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#2F2925' }}>
+      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#08124D' }}>
         <div className="mobile-content flex flex-col items-center gap-4">
           <div className="text-center space-y-3 mb-4 w-full">
-            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FBF8F2', boxSizing: 'border-box' }}>
-              Chega de Travar na Hora de Identificar as Estruturas
+            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FCFBF8', boxSizing: 'border-box' }}>
+              Chega de Travar na Hora de Identificar os Dentes
             </h2>
-            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: 'rgba(251,248,242,0.78)' }}>
-              Tenha ossos, acidentes ósseos, vistas e comparações entre espécies prontos para consultar sempre que precisar.
+            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: 'rgba(252,251,248,0.78)' }}>
+              Tenha vistas anatômicas, comparações, características, raízes, cúspides e diferenças entre os dentes prontas para consultar sempre que precisar.
             </p>
           </div>
 
@@ -49,9 +49,9 @@ export function FinalCta() {
             e.currentTarget.style.transform = 'translateY(0) scale(1)';
           }}
         >
-          QUERO ACESSAR A OSTEOLOGIA VETERINÁRIA
+          QUERO ACESSAR O GUIA VISUAL
         </button>
-        <p className="text-xs sm:text-sm text-center" style={{ color: 'rgba(251,248,242,0.7)' }}>
+        <p className="text-xs sm:text-sm text-center" style={{ color: 'rgba(252,251,248,0.7)' }}>
           
         </p>
       </div>

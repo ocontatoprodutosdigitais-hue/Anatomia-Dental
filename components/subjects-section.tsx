@@ -1,120 +1,154 @@
-import { Bone, Compass, Layers, Boxes, Skull } from 'lucide-react';
+import { Compass, Eye, GitCompare, Grid2x2, Layers, ListChecks } from 'lucide-react';
 
 type Block = {
   badge: string;
   title: string;
-  icon: typeof Bone;
+  icon: typeof Compass;
   accent: string;
   items: string[];
   description: string;
 };
 
-const accent = '#9D4E35';
+const accent = '#1255C8';
 
 const blocks: Block[] = [
   {
     badge: 'FUNDAMENTOS',
-    title: 'Fundamentos',
+    title: 'Fundamentos da Anatomia Dental',
     icon: Compass,
     accent,
     items: [
-      'Divisão do esqueleto',
-      'Classificação dos ossos',
-      'Termos de posição e direção',
-      'Planos anatômicos',
-      'Principais acidentes ósseos',
-      'Orientação de peças',
+      'Dentição permanente e decídua',
+      'Grupos dentários',
+      'Numeração dos dentes',
+      'Quadrantes',
+      'Maxila e mandíbula',
+      'Faces e superfícies dentárias',
+      'Mesial e distal',
+      'Terços dentários',
+      'Cúspides e vertentes',
+      'Cristas e arestas',
+      'Sulcos, fissuras e fossas',
+      'Anatomia das raízes',
+      'Anatomia interna',
+      'Oclusão e erupção',
     ],
-    description: 'Construa a base visual e a linguagem necessária antes de avançar para as regiões.',
+    description: 'Construa a base visual necessária antes de avançar para a identificação dos dentes.',
   },
   {
-    badge: 'MEMBRO TORÁCICO',
-    title: 'Membro Torácico',
-    icon: Bone,
+    badge: 'DENTES ANTERIORES',
+    title: 'Incisivos e Caninos Permanentes',
+    icon: Eye,
     accent,
     items: [
-      'Escápula',
-      'Úmero',
-      'Rádio',
-      'Ulna',
-      'Carpo',
-      'Metacarpos',
-      'Falanges',
-      'Vistas e acidentes ósseos',
+      'Incisivo central superior',
+      'Incisivo lateral superior',
+      'Incisivo central inferior',
+      'Incisivo lateral inferior',
+      'Canino superior',
+      'Canino inferior',
+      'Diferentes vistas anatômicas',
+      'Como reconhecer',
+      'Como saber o lado',
+      'Comparações visuais',
+      'Não Confunda',
     ],
-    description: 'Reconheça e oriente os ossos do membro torácico com diferentes vistas e comparações.',
+    description: 'Reconheça as diferenças que separam dentes anteriores visualmente semelhantes.',
   },
   {
-    badge: 'MEMBRO PÉLVICO',
-    title: 'Membro Pélvico',
-    icon: Bone,
+    badge: 'PRÉ-MOLARES',
+    title: 'Pré-Molares Permanentes',
+    icon: GitCompare,
     accent,
     items: [
-      'Pelve',
-      'Fêmur',
-      'Patela',
-      'Tíbia',
-      'Fíbula',
-      'Tarso',
-      'Metatarsos',
-      'Falanges',
+      '1º pré-molar superior',
+      '2º pré-molar superior',
+      '1º pré-molar inferior',
+      '2º pré-molar inferior',
+      'Vistas vestibulares',
+      'Vistas linguais/palatinas',
+      'Vistas proximais',
+      'Vistas oclusais',
+      'Cúspides',
+      'Sulcos',
+      'Raízes',
+      'Comparações lado a lado',
     ],
-    description: 'Identifique as estruturas do membro pélvico e as principais diferenças entre espécies.',
+    description: 'Aprenda a diferenciar primeiros e segundos pré-molares superiores e inferiores.',
   },
   {
-    badge: 'COLUNA VERTEBRAL',
-    title: 'Coluna Vertebral',
+    badge: 'MOLARES',
+    title: 'Molares Permanentes',
+    icon: Grid2x2,
+    accent,
+    items: [
+      '1º molar superior',
+      '2º molar superior',
+      '3º molar superior',
+      '1º molar inferior',
+      '2º molar inferior',
+      '3º molar inferior',
+      'Cúspides',
+      'Sulcos e fossas',
+      'Cristas',
+      'Raízes',
+      'Vista oclusal',
+      'Não Confunda',
+    ],
+    description: 'Reconheça padrões oclusais e características que diferenciam os molares.',
+  },
+  {
+    badge: 'DENTIÇÃO DECÍDUA',
+    title: 'Dentição Decídua',
     icon: Layers,
     accent,
     items: [
-      'Vértebras cervicais',
-      'Vértebras torácicas',
-      'Vértebras lombares',
-      'Vértebras sacrais',
-      'Vértebras caudais',
-      'Atlas e áxis',
+      'Características gerais',
+      'Decíduos × permanentes',
+      'Incisivos superiores',
+      'Incisivos inferiores',
+      'Canino superior',
+      'Canino inferior',
+      'Molares superiores',
+      'Molares inferiores',
+      'Como identificar',
+      'Comparações visuais',
     ],
-    description: 'Diferencie regiões e características vertebrais, incluindo as duas primeiras cervicais.',
+    description: 'Entenda as características próprias dos dentes decíduos e evite confundi-los com permanentes.',
   },
   {
-    badge: 'TÓRAX',
-    title: 'Tórax',
-    icon: Boxes,
+    badge: 'IDENTIFICAÇÃO',
+    title: 'Identificação Dental na Prática',
+    icon: ListChecks,
     accent,
     items: [
-      'Costelas',
-      'Esterno',
-      'Principais acidentes',
-      'Relações anatômicas',
+      'Por onde começar',
+      'Qual é o grupo dental',
+      'Superior ou inferior',
+      'Qual dente dentro do grupo',
+      'Direito ou esquerdo',
+      'Mesial e distal',
+      'Formato da coroa',
+      'Cúspides, cristas e sulcos',
+      'Vista incisal/oclusal',
+      'Número e formato das raízes',
+      'Anatomia interna',
+      'Checklist final',
     ],
-    description: 'Organize visualmente o esqueleto torácico e suas relações anatômicas.',
-  },
-  {
-    badge: 'CRÂNIO',
-    title: 'Crânio',
-    icon: Skull,
-    accent,
-    items: [
-      'Vistas do crânio',
-      'Principais ossos do crânio',
-      'Estruturas cranianas',
-      'Mandíbula',
-      'Diferenças entre espécies',
-    ],
-    description: 'Facilite a identificação de uma das regiões mais complexas da Osteologia.',
+    description: 'Use um processo lógico para chegar à identificação do dente com mais segurança.',
   },
 ];
 
 export function SubjectsSection() {
   return (
-    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#F3EBDD' }}>
+    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#EAF6FC' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-14">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#5A3A27' }}>
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#08124D' }}>
             Veja Tudo o Que Você Vai Encontrar no Material
           </h2>
-          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#8A7862' }}>
-            O conteúdo foi dividido por regiões anatômicas para você localizar rapidamente o que precisa estudar e entender cada estrutura com mais clareza.
+          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#5B6B8A' }}>
+            O conteúdo foi dividido em seis volumes para você localizar rapidamente o que precisa estudar e entender cada dente com mais clareza.
           </p>
         </div>
 
@@ -125,7 +159,7 @@ export function SubjectsSection() {
               <article
                 key={block.badge}
                 className="flex flex-col rounded-[18px] border p-6 sm:p-7"
-                style={{ backgroundColor: '#FBF8F2', borderColor: 'rgba(90,58,39,0.15)', boxShadow: '0 8px 24px rgba(47,41,37,0.06)' }}
+                style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(8,18,77,0.12)', boxShadow: '0 8px 24px rgba(8,18,77,0.06)' }}
               >
                 <div className="flex items-center gap-3">
                   <span
@@ -141,7 +175,7 @@ export function SubjectsSection() {
                     >
                       {block.badge}
                     </span>
-                    <h3 className="font-grotesk text-lg leading-tight sm:text-xl" style={{ color: '#5A3A27' }}>
+                    <h3 className="font-grotesk text-lg leading-tight sm:text-xl" style={{ color: '#08124D' }}>
                       {block.title}
                     </h3>
                   </div>
@@ -149,7 +183,7 @@ export function SubjectsSection() {
 
                 <ul className="mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2">
                   {block.items.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#2F2925' }}>
+                    <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#08124D' }}>
                       <span
                         className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full"
                         style={{ backgroundColor: block.accent }}
@@ -160,7 +194,7 @@ export function SubjectsSection() {
                   ))}
                 </ul>
 
-                <p className="mt-5 border-t pt-4 text-sm leading-relaxed" style={{ color: '#8A7862', borderColor: 'rgba(90,58,39,0.15)' }}>
+                <p className="mt-5 border-t pt-4 text-sm leading-relaxed" style={{ color: '#5B6B8A', borderColor: 'rgba(8,18,77,0.12)' }}>
                   {block.description}
                 </p>
               </article>

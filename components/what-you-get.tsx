@@ -1,22 +1,22 @@
 export function WhatYouGet() {
   const collections = [
-    ['10', 'FUNDAMENTOS', 'Construa a base necessária para interpretar corretamente todo o restante do material, com divisão do esqueleto, classificação dos ossos, termos de posição e direção, planos anatômicos, acidentes ósseos e orientação de peças.', 'Entender a linguagem visual da Osteologia.'],
-    ['32', 'MEMBRO TORÁCICO', 'Estude escápula, úmero, rádio, ulna, carpo, metacarpos e falanges com diferentes vistas, acidentes ósseos, identificação do lado e comparações entre espécies.', 'Reconhecer e orientar os ossos do membro torácico.'],
-    ['32', 'MEMBRO PÉLVICO', 'Visualize pelve, fêmur, patela, tíbia, fíbula, tarso, metatarsos e falanges, com foco nas principais estruturas anatômicas e diferenças entre espécies.', 'Identificar e comparar as estruturas do membro pélvico.'],
-    ['22', 'COLUNA VERTEBRAL', 'Aprenda a diferenciar vértebras cervicais, torácicas, lombares, sacrais e caudais, incluindo atlas, áxis e os principais pontos de referência de cada região.', 'Reconhecer regiões e características vertebrais.'],
-    ['12', 'TÓRAX', 'Visualize costelas, esterno e seus principais acidentes ósseos, relações anatômicas e diferenças relevantes entre espécies.', 'Organizar visualmente o esqueleto torácico.'],
-    ['40', 'CRÂNIO', 'Explore o crânio em diferentes vistas, seus principais ossos, estruturas, mandíbula e comparações entre espécies.', 'Facilitar a identificação de uma das regiões mais complexas da Osteologia.'],
+    ['24', 'FUNDAMENTOS DA ANATOMIA DENTAL', 'Construa a base necessária para compreender a anatomia dos dentes, passando por dentições, grupos dentários, numeração, faces, superfícies, terços, cúspides, sulcos, fossas, raízes, arcadas e oclusão.', 'Entender a linguagem visual da Anatomia Dental.'],
+    ['24', 'INCISIVOS E CANINOS PERMANENTES', 'Estude incisivos e caninos superiores e inferiores em diferentes vistas, aprendendo suas características anatômicas, diferenças, formas de reconhecimento e como identificar o lado correto.', 'Reconhecer e diferenciar os dentes anteriores.'],
+    ['24', 'PRÉ-MOLARES PERMANENTES', 'Compare primeiros e segundos pré-molares superiores e inferiores através das vistas vestibular, palatina/lingual, proximal e oclusal, observando cúspides, sulcos, raízes e contornos.', 'Diferenciar pré-molares semelhantes com mais segurança.'],
+    ['32', 'MOLARES PERMANENTES', 'Explore primeiros, segundos e terceiros molares superiores e inferiores, com foco em vistas oclusais, cúspides, sulcos, fossas, raízes e características que ajudam na identificação.', 'Reconhecer os dentes posteriores mais complexos.'],
+    ['18', 'DENTIÇÃO DECÍDUA', 'Visualize incisivos, caninos e molares decíduos, compare com a dentição permanente e aprenda as diferenças de tamanho, coroa, raízes, esmalte e proporções.', 'Diferenciar dentes decíduos dos permanentes.'],
+    ['18', 'IDENTIFICAÇÃO DENTAL NA PRÁTICA', 'Use um método visual para reconhecer grupo dental, arcada, dente específico, lado, formato da coroa, cúspides, raízes, anatomia interna e outros detalhes decisivos.', 'Transformar conhecimento anatômico em identificação prática.'],
   ];
 
   return (
-    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#FBF8F2' }}>
+    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#FCFBF8' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#5A3A27' }}>
-            Osteologia Veterinária Organizada em 6 Coleções Visuais
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#08124D' }}>
+            Anatomia Dental Organizada em 6 Coleções Visuais
           </h2>
-          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#8A7862' }}>
-            Cada coleção reúne uma região ou grupo de estruturas, organizadas visualmente para facilitar a identificação, comparação e revisão durante o estudo.
+          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#5B6B8A' }}>
+            Cada volume reúne uma parte importante da Anatomia Dental, organizada visualmente para facilitar a identificação, comparação e revisão durante o estudo.
           </p>
         </div>
 
@@ -24,24 +24,24 @@ export function WhatYouGet() {
           {collections.map(([count, title, description, funcao]) => (
             <article
               key={title}
-              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(47,41,37,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#9D4E35] hover:shadow-[0_14px_30px_rgba(47,41,37,0.12)]"
-              style={{ backgroundColor: '#FBF8F2', borderColor: 'rgba(90,58,39,0.15)' }}
+              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(8,18,77,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#1255C8] hover:shadow-[0_14px_30px_rgba(8,18,77,0.12)]"
+              style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(8,18,77,0.12)' }}
             >
-              <div className="absolute inset-x-6 top-0 h-1 rounded-b-full bg-[#9D4E35] opacity-70 transition-opacity duration-250 group-hover:opacity-100" />
+              <div className="absolute inset-x-6 top-0 h-1 rounded-b-full bg-[#1255C8] opacity-70 transition-opacity duration-250 group-hover:opacity-100" />
               <div className="flex items-baseline gap-2">
-                <span className="font-grotesk text-4xl leading-none sm:text-5xl" style={{ color: '#9D4E35' }}>
+                <span className="font-grotesk text-4xl leading-none sm:text-5xl" style={{ color: '#1255C8' }}>
                   {count}
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider" style={{ color: '#9D4E35' }}>
+                <span className="text-xs font-bold uppercase tracking-wider" style={{ color: '#1255C8' }}>
                   Páginas
                 </span>
               </div>
               <div className="mt-4 flex flex-1 flex-col">
-                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#5A3A27' }}>{title}</h3>
-                <p className="mt-3 text-sm leading-relaxed" style={{ color: '#8A7862' }}>{description}</p>
+                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#08124D' }}>{title}</h3>
+                <p className="mt-3 text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>{description}</p>
               </div>
-              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#8A7862', borderColor: 'rgba(90,58,39,0.15)' }}>
-                <span className="font-bold uppercase tracking-wide" style={{ color: '#9D4E35' }}>Função:</span>{' '}
+              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#5B6B8A', borderColor: 'rgba(8,18,77,0.12)' }}>
+                <span className="font-bold uppercase tracking-wide" style={{ color: '#1255C8' }}>Função:</span>{' '}
                 {funcao}
               </p>
             </article>

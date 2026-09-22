@@ -15,58 +15,60 @@ import { FAQ } from '@/components/faq';
 import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
-// Páginas internas reais da coleção de Osteologia Veterinária
+// Páginas internas reais da coleção do Guia Visual de Anatomia Dental
 const carrossel1 = [
-  { image: '/images/osteo/pg-costela.webp', title: 'Como Reconhecer e Orientar uma Costela', tag: 'Vol. 5 · Tórax' },
-  { image: '/images/osteo/pg-vertebras-toracicas.webp', title: 'Vértebras Torácicas — Comparação entre Espécies', tag: 'Vol. 4 · Coluna' },
-  { image: '/images/osteo/pg-cranio-ventral.webp', title: 'Crânio — Vista Ventral', tag: 'Vol. 5 · Crânio' },
-  { image: '/images/osteo/pg-vertebras-cervicais.webp', title: 'Vértebras Cervicais — Comparação entre Espécies', tag: 'Vol. 4 · Coluna' },
-  { image: '/images/osteo/pg-vistas-cranio.webp', title: 'Como Identificar as Vistas do Crânio', tag: 'Vol. 5 · Crânio' },
-  { image: '/images/osteo/pg-cranio.webp', title: 'Crânio — Estrutura e Comparação', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-mapa-torax.webp', title: 'Mapa Visual do Tórax Veterinário', tag: 'Vol. 5 · Tórax' },
-  { image: '/images/osteo/pg-sacro.webp', title: 'Sacro — Identificação e Comparação', tag: 'Vol. 3 · Membro Pélvico' },
+  { image: '/images/dental/page-premolar.png', title: '1º Pré-Molar Superior — Vistas do Dente', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/page-molar.png', title: '1º Molar Superior — Identificação Visual', tag: 'Vol. 4 · Molares' },
+  { image: '/images/dental/page-deciduos.png', title: 'Dentição Decídua × Permanente', tag: 'Vol. 5 · Decídua' },
+  { image: '/images/dental/page-nc-premolares.png', title: 'Não Confunda: Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/page-nc-molares.png', title: 'Não Confunda: Molares', tag: 'Vol. 4 · Molares' },
+  { image: '/images/dental/page-incisivos.png', title: 'Incisivos Superiores', tag: 'Vol. 2 · Anteriores' },
+  { image: '/images/dental/page-mesial-distal.png', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/page-mapa.png', title: 'Mapa Final dos Dentes', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/page-cuspides.png', title: 'Use Cúspides, Cristas e Sulcos', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/page-checklist.png', title: 'Checklist de Identificação Dental', tag: 'Vol. 6 · Identificação' },
 ];
 
 const carrossel2 = [
-  { image: '/images/osteo/pg-denticao.webp', title: 'Dentição e Arcadas Dentárias', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-cavidade-nasal.webp', title: 'Cavidade Nasal e Conchas', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-maxila.webp', title: 'Maxila, Incisivo e Zigomático', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-neurocranio.webp', title: 'Neurocrânio e Viscerocrânio', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-base-cranio.webp', title: 'Base do Crânio', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-seios-paranasais.webp', title: 'Seios Paranasais', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-arcadas-dentarias.webp', title: 'Arcadas Dentárias e Tipos de Dentes', tag: 'Vol. 6 · Crânio' },
-  { image: '/images/osteo/pg-orbita.webp', title: 'Órbita e Cavidade Orbital', tag: 'Vol. 6 · Crânio' },
+  { image: '/images/dental/page-incisivos.png', title: 'Não Confunda: Incisivos', tag: 'Vol. 2 · Anteriores' },
+  { image: '/images/dental/page-caninos.png', title: 'Não Confunda: Caninos', tag: 'Vol. 2 · Anteriores' },
+  { image: '/images/dental/page-nc-premolares.png', title: 'Não Confunda: Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/page-nc-molares.png', title: 'Não Confunda: Molares', tag: 'Vol. 4 · Molares' },
+  { image: '/images/dental/page-deciduos.png', title: 'Decíduos × Permanentes', tag: 'Vol. 5 · Decídua' },
+  { image: '/images/dental/page-mesial-distal.png', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/page-cuspides.png', title: 'Use a Vista Incisal/Oclusal', tag: 'Vol. 4 · Molares' },
+  { image: '/images/dental/page-raizes.png', title: 'Use Número e Formato das Raízes', tag: 'Vol. 6 · Identificação' },
 ];
 
 export default function Page() {
   const offerRef = useRef<HTMLDivElement>(null);
   const handleCtaClick = () => offerRef.current?.scrollIntoView({ behavior: 'smooth' });
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#F3EBDD' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#EAF6FC' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <ProductCarousel
-        title="Conheça a Osteologia Veterinária por Dentro"
-        subtitle="Veja como o conteúdo foi organizado para você bater o olho, identificar a estrutura e entender exatamente o que está estudando."
+        title="Conheça o Guia Visual de Anatomia Dental por Dentro"
+        subtitle="Veja como o conteúdo foi organizado para você bater o olho, reconhecer os dentes, comparar características e entender exatamente o que está observando."
         items={carrossel1}
-        bg="#FBF8F2"
+        bg="#FCFBF8"
       />
       <HowItWorks />
       <WhatYouGet />
       <SubjectsSection />
       <ProductCarousel
         title="Identifique, Compare e Diferencie com Mais Clareza"
-        subtitle="Cada tipo de página ajuda você a reconhecer estruturas, comparar diferenças e revisar os pontos que mais geram dúvida."
+        subtitle="Cada tipo de página ajuda você a reconhecer dentes, comparar diferenças e revisar os pontos que mais geram dúvida."
         flowSteps={[
-          ['Identificação Visual', 'Veja o osso e identifique suas principais estruturas.'],
-          ['Como Reconhecer', 'Entenda quais características ajudam a reconhecer cada peça.'],
-          ['Como Saber o Lado', 'Use os acidentes ósseos para diferenciar direita e esquerda.'],
-          ['Não Confunda', 'Compare estruturas parecidas e veja o que diferencia uma da outra.'],
-          ['Comparação entre Espécies', 'Compare canino, equino, bovino e suíno lado a lado.'],
+          ['Identificação Visual', 'Veja o dente em diferentes vistas e identifique suas principais características.'],
+          ['Como Reconhecer', 'Entenda quais características ajudam a reconhecer cada dente.'],
+          ['Como Saber o Lado', 'Use contornos, ângulos, cúspides e raízes para diferenciar direita e esquerda.'],
+          ['Não Confunda', 'Compare dentes parecidos lado a lado e veja exatamente o que diferencia um do outro.'],
+          ['Comparações Visuais', 'Compare superiores × inferiores, centrais × laterais, 1º × 2º, decíduos × permanentes e muito mais.'],
         ]}
         items={carrossel2}
         reverse={true}
-        bg="#FBF8F2"
+        bg="#FCFBF8"
       />
       <Testimonials />
       <BonusSection />

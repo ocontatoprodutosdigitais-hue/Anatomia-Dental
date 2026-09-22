@@ -14,35 +14,35 @@ function StarRow() {
 
 const depoimentos = [
   {
-    text: 'Eu sempre me perdia quando precisava revisar Osteologia porque tinha muita coisa espalhada entre slides, anotações e livros. Ter tudo organizado visualmente em um só material facilitou muito meus estudos.',
+    text: 'Eu sempre confundia alguns dentes porque nos slides parecia tudo muito parecido. Com as comparações lado a lado ficou muito mais fácil perceber quais detalhes realmente diferenciam cada um.',
     name: 'Mariana Alves',
-    role: 'Estudante de Medicina Veterinária',
-    image: '/images/osteo/depoimento-mariana.webp',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-1.png',
   },
   {
-    text: 'Usei principalmente nos dias antes da prova e foi o que mais gostei. Em poucos minutos eu conseguia passar pelos pontos mais importantes sem precisar reler páginas e páginas de conteúdo.',
+    text: 'Usei principalmente para revisar antes da prova. Em poucos minutos eu conseguia comparar incisivos, pré-molares e molares sem precisar voltar em várias aulas e anotações.',
     name: 'Camila Rocha',
-    role: 'Estudante de Medicina Veterinária',
-    image: '/images/osteo/depoimento-camila.webp',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-2.png',
   },
   {
-    text: 'O material ficou muito mais prático do que eu imaginava. Abro no celular, escolho a parte que quero estudar e já consigo revisar sem ficar procurando imagem e explicação em vários lugares diferentes.',
+    text: 'Gostei porque não é aquele material cheio de texto. Eu abro no celular, vejo as imagens, comparo as características e consigo revisar exatamente o ponto que estava me confundindo.',
     name: 'Lucas Ferreira',
-    role: 'Estudante de Medicina Veterinária',
-    image: '/images/osteo/depoimento-lucas.webp',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-3.png',
   },
 ];
 
 export function Testimonials() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#F3EBDD' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EAF6FC' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#5A3A27' }}>
-            Relatos de quem já Utiliza o Material
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#08124D' }}>
+            Relatos de Quem Já Utiliza o Material
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#8A7862' }}>
-            Veja as experiências de quem passou a estudar e revisar osteologia com mais clareza.
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
+            Veja as experiências de quem passou a estudar e revisar Anatomia Dental com mais clareza.
           </p>
         </div>
 
@@ -51,21 +51,21 @@ export function Testimonials() {
             <div
               key={i}
               className="flex flex-col gap-5 p-8 md:p-9"
-              style={{ backgroundColor: '#FBF8F2', border: '1px solid rgba(157,78,53,0.15)', borderRadius: '20px', boxShadow: '0 8px 24px rgba(47,41,37,0.07)' }}
+              style={{ backgroundColor: '#FCFBF8', border: '1px solid rgba(18,85,200,0.15)', borderRadius: '20px', boxShadow: '0 8px 24px rgba(8,18,77,0.07)' }}
             >
               <div className="flex items-center justify-between">
                 <StarRow />
-                <Quote size={22} style={{ color: 'rgba(157,78,53,0.4)' }} aria-hidden="true" />
+                <Quote size={22} style={{ color: 'rgba(18,85,200,0.4)' }} aria-hidden="true" />
               </div>
 
-              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#2F2925' }}>
+              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#08124D' }}>
                 {'\u201C'}{d.text}{'\u201D'}
               </p>
 
               <div className="mt-auto pt-2 flex items-center gap-3">
                 <div
                   className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden"
-                  style={{ boxShadow: '0 2px 6px rgba(47,41,37,0.15)' }}
+                  style={{ boxShadow: '0 2px 6px rgba(8,18,77,0.15)' }}
                 >
                   <img
                     src={d.image || "/placeholder.svg"}
@@ -76,10 +76,10 @@ export function Testimonials() {
                   />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="font-semibold text-sm" style={{ color: '#5A3A27' }}>
+                  <span className="font-semibold text-sm" style={{ color: '#08124D' }}>
                     {d.name}
                   </span>
-                  <span className="text-xs" style={{ color: '#8A7862' }}>
+                  <span className="text-xs" style={{ color: '#5B6B8A' }}>
                     {d.role}
                   </span>
                 </div>

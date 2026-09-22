@@ -15,25 +15,25 @@ const anton = Anton({
 })
 
 export const metadata: Metadata = {
-  title: 'Osteologia Veterinária | Coleção Visual de Ossos, Acidentes e Espécies',
+  title: 'Guia Visual de Anatomia Dental | Coleção Visual de Dentes e Identificação',
   description:
-    'Uma coleção visual de Osteologia Veterinária com 6 volumes e cerca de 150 páginas: ossos, acidentes ósseos, vistas anatômicas e comparações entre canino, equino, bovino e suíno. Acesso imediato.',
+    'Uma coleção visual de Anatomia Dental com 6 volumes e 140 páginas: dentes, vistas anatômicas, comparações e identificação de incisivos, caninos, pré-molares e molares. Acesso imediato.',
   generator: 'v0.app',
 
   openGraph: {
-    title: 'Osteologia Veterinária | Coleção Visual de Ossos, Acidentes e Espécies',
+    title: 'Guia Visual de Anatomia Dental | Coleção Visual de Dentes e Identificação',
     description:
-      'Ossos, acidentes ósseos, vistas anatômicas e diferenças entre espécies organizados visualmente para estudar com clareza e revisar antes da prova prática. Acesso imediato e 7 dias de garantia.',
+      'Dentes, vistas anatômicas, comparações e diferenças entre incisivos, caninos, pré-molares e molares organizados visualmente para estudar com clareza e revisar antes da prova. Acesso imediato e 7 dias de garantia.',
     type: 'website',
     locale: 'pt_BR',
-    siteName: 'Osteologia Veterinária',
+    siteName: 'Guia Visual de Anatomia Dental',
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Osteologia Veterinária',
+    title: 'Guia Visual de Anatomia Dental',
     description:
-      'Coleção visual de Osteologia Veterinária para reconhecer, identificar e revisar as estruturas ósseas. Acesso imediato e 7 dias de garantia.',
+      'Coleção visual de Anatomia Dental para reconhecer, comparar e diferenciar os dentes. Acesso imediato e 7 dias de garantia.',
   },
 
   icons: {
