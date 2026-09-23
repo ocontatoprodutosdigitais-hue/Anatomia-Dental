@@ -5,7 +5,7 @@ import { Check, Star } from 'lucide-react';
 /* ===== Constantes de preço e checkout (fáceis de editar) ===== */
 const PRICE = 'R$ 19,90';
 const TOTAL_PRICE = 'R$ 80,80';
-const CHECKOUT_URL = 'https://pay.cakto.com.br/jfu5bmc_1099946';
+const CHECKOUT_URL = 'https://pay.cakto.com.br/t2jycye_1130420';
 
 /* O que está incluído na oferta (destaque principal do pacote) */
 const highlightFeature: [string, string] = ['140', 'páginas visuais de Anatomia Dental'];

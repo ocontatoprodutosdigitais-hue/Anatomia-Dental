@@ -1,6 +1,6 @@
 'use client';
 
-const CHECKOUT_URL = 'https://pay.cakto.com.br/jfu5bmc_1099946';
+const CHECKOUT_URL = 'https://pay.cakto.com.br/t2jycye_1130420';
 
 export function FinalCta() {
   const goToCheckout = () => {
