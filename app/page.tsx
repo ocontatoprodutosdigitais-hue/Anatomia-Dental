@@ -28,14 +28,14 @@ const carrossel1 = [
 ];
 
 const carrossel2 = [
-  { image: '/images/dental/page-incisivos.png', title: 'Não Confunda: Incisivos', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/page-caninos.png', title: 'Não Confunda: Caninos', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/page-nc-premolares.png', title: 'Não Confunda: Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/page-nc-molares.png', title: 'Não Confunda: Molares', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/page-deciduos.png', title: 'Decíduos × Permanentes', tag: 'Vol. 5 · Decídua' },
-  { image: '/images/dental/page-mesial-distal.png', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
-  { image: '/images/dental/page-cuspides.png', title: 'Use a Vista Incisal/Oclusal', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/page-raizes.png', title: 'Use Número e Formato das Raízes', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/c2-incisivo-central.webp', title: 'Incisivo Central Superior', tag: 'Vol. 2 · Anteriores' },
+  { image: '/images/dental/c2-canino-inferior.webp', title: 'Canino Inferior: Vistas do Dente', tag: 'Vol. 2 · Anteriores' },
+  { image: '/images/dental/c2-premolar-superior.webp', title: '1º Pré-Molar Superior', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/c2-premolar-oclusal.webp', title: '1º Pré-Molar: Vista Oclusal', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/c2-resumao-premolares.webp', title: 'Resumão Visual dos Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
+  { image: '/images/dental/c2-molar-superior.webp', title: '1º Molar Superior', tag: 'Vol. 4 · Molares' },
+  { image: '/images/dental/c2-denticao-decidua.webp', title: 'Decíduos × Permanentes', tag: 'Vol. 5 · Decídua' },
+  { image: '/images/dental/c2-mesial-distal.webp', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
 ];
 
 export default function Page() {
