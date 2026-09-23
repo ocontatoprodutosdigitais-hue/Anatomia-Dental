@@ -10,7 +10,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
       <div className="mobile-content flex flex-col items-center">
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-12">
           <div className="text-center">
-            <p className="text-xs sm:text-sm font-bold inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full border" style={{ backgroundColor: 'rgba(18, 85, 200, 0.06)', color: '#1255C8', borderColor: 'rgba(18, 85, 200, 0.30)' }}>
+            <p className="text-xs sm:text-sm font-bold inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full border" style={{ backgroundColor: '#DCFCE7', color: '#15803D', borderColor: 'rgba(22, 163, 74, 0.35)' }}>
               🔒 COMPRA 100% SEGURA E PROTEGIDA
             </p>
           </div>
