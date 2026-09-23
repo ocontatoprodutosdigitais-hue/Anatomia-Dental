@@ -17,16 +17,14 @@ import { Footer } from '@/components/footer';
 
 // Páginas internas reais da coleção do Guia Visual de Anatomia Dental
 const carrossel1 = [
-  { image: '/images/dental/page-premolar.png', title: '1º Pré-Molar Superior — Vistas do Dente', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/page-molar.png', title: '1º Molar Superior — Identificação Visual', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/page-deciduos.png', title: 'Dentição Decídua × Permanente', tag: 'Vol. 5 · Decídua' },
-  { image: '/images/dental/page-nc-premolares.png', title: 'Não Confunda: Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/page-nc-molares.png', title: 'Não Confunda: Molares', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/page-incisivos.png', title: 'Incisivos Superiores', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/page-mesial-distal.png', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
-  { image: '/images/dental/page-mapa.png', title: 'Mapa Final dos Dentes', tag: 'Vol. 6 · Identificação' },
-  { image: '/images/dental/page-cuspides.png', title: 'Use Cúspides, Cristas e Sulcos', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/page-checklist.png', title: 'Checklist de Identificação Dental', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/v1-quadrantes.webp', title: 'Quadrantes Dentários', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-numeracao-permanentes.webp', title: 'Numeração dos Dentes Permanentes', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-numeracao-deciduos.webp', title: 'Numeração dos Dentes Decíduos', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-mesial-distal.webp', title: 'Mesial × Distal', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-coroa-colo-raiz.webp', title: 'Coroa, Colo e Raiz', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-sulcos-fissuras.webp', title: 'Sulcos, Fissuras e Fossetas', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-cuspides-vertentes.webp', title: 'Cúspides e Vertentes', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-oclusao.webp', title: 'Oclusão: Conceitos Essenciais', tag: 'Vol. 1 · Fundamentos' },
 ];
 
 const carrossel2 = [
