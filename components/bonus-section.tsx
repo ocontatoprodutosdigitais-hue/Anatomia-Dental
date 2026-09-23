@@ -5,25 +5,25 @@ import { Star } from 'lucide-react';
 const bonuses = [
   {
     label: 'BÔNUS 1',
-    name: 'Revisão Express de Anatomia Dental',
+    name: 'Mapa Visual de Erupção Dental',
     description:
-      'Um material de consulta rápida com os principais grupos dentários, características anatômicas e diferenças organizadas de forma visual para revisar antes das aulas, provas e avaliações.',
+      'Material visual organizado para consultar rapidamente a cronologia de erupção, troca e desenvolvimento da dentição decídua e permanente.',
     oldPrice: 'De R$ 17,00',
     image: '/images/dental/bonus-1.png',
   },
   {
     label: 'BÔNUS 2',
-    name: 'Teste Sua Identificação Dental',
+    name: 'Checklist de Identificação Dental',
     description:
-      'Uma coleção de exercícios visuais para praticar a identificação de dentes, grupos, arcadas e lados, acompanhada de respostas para conferir seu raciocínio.',
+      'Roteiro prático para seguir durante a identificação dos dentes, observando grupo dental, arcada, lado, raízes e principais características anatômicas.',
     oldPrice: 'De R$ 19,90',
     image: '/images/dental/bonus-2.png',
   },
   {
     label: 'BÔNUS 3',
-    name: 'Flashcards de Anatomia Dental',
+    name: 'Revisão Rápida de Anatomia Dental',
     description:
-      'Cartões visuais desenvolvidos para reforçar rapidamente características, cúspides, raízes, vistas anatômicas e diferenças entre dentes semelhantes.',
+      'Resumo visual com os principais pontos da anatomia dental reunidos em um material compacto para revisar antes de provas, aulas e avaliações práticas.',
     oldPrice: 'De R$ 24,00',
     image: '/images/dental/bonus-3.png',
   },
