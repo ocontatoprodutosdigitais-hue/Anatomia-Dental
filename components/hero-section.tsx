@@ -31,7 +31,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
           <div className="w-full flex justify-center py-2 sm:py-4 md:py-6 overflow-visible">
             <div className="w-full max-w-2xl flex justify-center items-center">
               <img
-                src="/images/dental/hero-colecao.png"
+                src="/images/dental/hero-colecao-v2.webp"
                 alt="Coleção Guia Visual de Anatomia Dental: 6 volumes, páginas internas com dentes, vistas anatômicas e comparações"
                 className="w-full h-auto object-contain"
                 style={{ filter: 'drop-shadow(0 24px 45px rgba(16, 63, 110, 0.25))' }}
