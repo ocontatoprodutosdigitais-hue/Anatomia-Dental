@@ -76,7 +76,7 @@ export function PricingSection() {
             {/* Mockup grande */}
             <div className="mt-5 flex justify-center">
               <img
-                src="/images/dental/pricing-colecao.png"
+                src="/images/dental/pricing-colecao-v2.png"
                 alt="Coleção completa do Guia Visual de Anatomia Dental com os 6 volumes, os três bônus e o selo de garantia de 7 dias"
                 className="w-full max-w-[440px] h-auto object-contain drop-shadow-xl"
                 loading="lazy"
