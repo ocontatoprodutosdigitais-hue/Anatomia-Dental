@@ -9,7 +9,7 @@ const bonuses = [
     description:
       'Material visual organizado para consultar rapidamente a cronologia de erupção, troca e desenvolvimento da dentição decídua e permanente.',
     oldPrice: 'De R$ 17,00',
-    image: '/images/dental/bonus-1.png',
+    image: '/images/dental/bonus-erupcao.webp',
   },
   {
     label: 'BÔNUS 2',
@@ -17,7 +17,7 @@ const bonuses = [
     description:
       'Roteiro prático para seguir durante a identificação dos dentes, observando grupo dental, arcada, lado, raízes e principais características anatômicas.',
     oldPrice: 'De R$ 19,90',
-    image: '/images/dental/bonus-2.png',
+    image: '/images/dental/bonus-checklist.webp',
   },
   {
     label: 'BÔNUS 3',
@@ -25,7 +25,7 @@ const bonuses = [
     description:
       'Resumo visual com os principais pontos da anatomia dental reunidos em um material compacto para revisar antes de provas, aulas e avaliações práticas.',
     oldPrice: 'De R$ 24,00',
-    image: '/images/dental/bonus-3.png',
+    image: '/images/dental/bonus-revisao.webp',
   },
 ];
 
@@ -45,7 +45,7 @@ export function BonusSection() {
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
-          <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#D7A52D' }}>
+          <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#22C55E' }}>
             Bônus Inclusos
           </span>
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#FCFBF8' }}>
