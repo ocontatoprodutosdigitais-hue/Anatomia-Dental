@@ -6,7 +6,7 @@ export function HowItWorks() {
     ['4', 'FIXE', 'Revise as imagens e treine seu olhar até reconhecer os dentes pelas próprias características anatômicas.'],
   ];
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#08124D' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#103F6E' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-12 md:mb-16">
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#FCFBF8' }}>
@@ -25,8 +25,8 @@ export function HowItWorks() {
                 borderRadius: '20px',
                 overflow: 'hidden',
                 backgroundColor: '#FCFBF8',
-                border: '1px solid rgba(8,18,77,0.12)',
-                boxShadow: '0 12px 30px rgba(8, 18, 77, 0.28)',
+                border: '1px solid rgba(16,63,110,0.12)',
+                boxShadow: '0 12px 30px rgba(16, 63, 110, 0.28)',
                 padding: '28px',
                 transition: 'all 250ms ease',
               }}
@@ -43,12 +43,12 @@ export function HowItWorks() {
                   height: '52px',
                   background: '#1255C8',
                   color: '#FCFBF8',
-                  boxShadow: '0 6px 14px rgba(8, 18, 77, 0.25)',
+                  boxShadow: '0 6px 14px rgba(16, 63, 110, 0.25)',
                 }}
               >
                 {number}
               </div>
-              <h3 className="font-grotesk text-base sm:text-lg mb-3 uppercase tracking-wide" style={{ color: '#08124D' }}>
+              <h3 className="font-grotesk text-base sm:text-lg mb-3 uppercase tracking-wide" style={{ color: '#103F6E' }}>
                 {title}
               </h3>
               <p className="text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>
@@ -62,7 +62,7 @@ export function HowItWorks() {
         .how-it-works-card:hover {
           transform: translateY(-4px);
           border-color: #1255C8;
-          box-shadow: 0 18px 38px rgba(8, 18, 77, 0.32);
+          box-shadow: 0 18px 38px rgba(16, 63, 110, 0.32);
         }
       `}</style>
     </section>

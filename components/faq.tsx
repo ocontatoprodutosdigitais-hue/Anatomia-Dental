@@ -41,7 +41,7 @@ export function FAQ() {
   ];
 
   return (
-    <section className="w-full py-14 px-0" style={{ backgroundColor: '#08124D' }}>
+    <section className="w-full py-14 px-0" style={{ backgroundColor: '#103F6E' }}>
       <div className="mobile-content">
         <h2
           className="font-grotesk text-center"
@@ -58,10 +58,10 @@ export function FAQ() {
                 key={idx}
                 style={{
                   backgroundColor: '#FCFBF8',
-                  border: '1px solid rgba(8,18,77,0.18)',
+                  border: '1px solid rgba(16,63,110,0.18)',
                   borderRadius: '16px',
                   overflow: 'hidden',
-                  boxShadow: '0 5px 14px rgba(8, 18, 77, 0.18)',
+                  boxShadow: '0 5px 14px rgba(16, 63, 110, 0.18)',
                   width: '100%',
                 }}
               >
@@ -74,7 +74,7 @@ export function FAQ() {
                   <span
                     className="text-left"
                     style={{
-                      color: '#08124D',
+                      color: '#103F6E',
                       fontSize: '15px',
                       fontWeight: 700,
                       lineHeight: 1.35,
@@ -108,14 +108,14 @@ export function FAQ() {
                 >
                   <div
                     style={{
-                      borderTop: '1px solid rgba(8,18,77,0.18)',
+                      borderTop: '1px solid rgba(16,63,110,0.18)',
                       backgroundColor: '#EAF6FC',
                       padding: '19px 18px',
                     }}
                   >
                     <p
                       className="text-left"
-                      style={{ color: '#08124D', fontSize: '15px', lineHeight: 1.6 }}
+                      style={{ color: '#103F6E', fontSize: '15px', lineHeight: 1.6 }}
                     >
                       {item.a}
                     </p>

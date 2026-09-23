@@ -38,7 +38,7 @@ export function Testimonials() {
     <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EAF6FC' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#08124D' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#103F6E' }}>
             Relatos de Quem Já Utiliza o Material
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
@@ -51,21 +51,21 @@ export function Testimonials() {
             <div
               key={i}
               className="flex flex-col gap-5 p-8 md:p-9"
-              style={{ backgroundColor: '#FCFBF8', border: '1px solid rgba(18,85,200,0.15)', borderRadius: '20px', boxShadow: '0 8px 24px rgba(8,18,77,0.07)' }}
+              style={{ backgroundColor: '#FCFBF8', border: '1px solid rgba(18,85,200,0.15)', borderRadius: '20px', boxShadow: '0 8px 24px rgba(16,63,110,0.07)' }}
             >
               <div className="flex items-center justify-between">
                 <StarRow />
                 <Quote size={22} style={{ color: 'rgba(18,85,200,0.4)' }} aria-hidden="true" />
               </div>
 
-              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#08124D' }}>
+              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#103F6E' }}>
                 {'\u201C'}{d.text}{'\u201D'}
               </p>
 
               <div className="mt-auto pt-2 flex items-center gap-3">
                 <div
                   className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden"
-                  style={{ boxShadow: '0 2px 6px rgba(8,18,77,0.15)' }}
+                  style={{ boxShadow: '0 2px 6px rgba(16,63,110,0.15)' }}
                 >
                   <img
                     src={d.image || "/placeholder.svg"}
@@ -76,7 +76,7 @@ export function Testimonials() {
                   />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="font-semibold text-sm" style={{ color: '#08124D' }}>
+                  <span className="font-semibold text-sm" style={{ color: '#103F6E' }}>
                     {d.name}
                   </span>
                   <span className="text-xs" style={{ color: '#5B6B8A' }}>

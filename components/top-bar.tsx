@@ -19,7 +19,7 @@ export function TopBar() {
   return (
     <div
       className="relative w-full animate-in fade-in duration-500"
-      style={{ backgroundColor: '#08124D', borderBottom: '1px solid rgba(255,255,255,0.15)' }}
+      style={{ backgroundColor: '#103F6E', borderBottom: '1px solid rgba(255,255,255,0.15)' }}
     >
       <div className="py-2.5 sm:py-3">
         <div

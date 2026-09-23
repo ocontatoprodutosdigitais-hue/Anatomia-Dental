@@ -13,7 +13,7 @@ export function FinalCta() {
   };
 
   return (
-      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#08124D' }}>
+      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#103F6E' }}>
         <div className="mobile-content flex flex-col items-center gap-4">
           <div className="text-center space-y-3 mb-4 w-full">
             <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FCFBF8', boxSizing: 'border-box' }}>
