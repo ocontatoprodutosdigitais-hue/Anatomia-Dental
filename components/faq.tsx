@@ -32,7 +32,7 @@ export function FAQ() {
     },
     {
       q: 'Como receberei o acesso e por quanto tempo poderei usar?',
-      a: 'Após a confirmação do pagamento, você receberá as instruções de acesso ao material digital e poderá consultá-lo sempre que precisar, conforme as condições informadas na plataforma de entrega.',
+      a: 'Após a confirmação do pagamento, você receberá as instruções de acesso no e-mail informado na compra. O acesso é vitalício, para consultar o material sempre que precisar.',
     },
     {
       q: 'Como funciona a garantia?',
