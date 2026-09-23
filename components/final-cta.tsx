@@ -17,7 +17,7 @@ export function FinalCta() {
         <div className="mobile-content flex flex-col items-center gap-4">
           <div className="text-center space-y-3 mb-4 w-full">
             <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FCFBF8', boxSizing: 'border-box' }}>
-              Chega de Travar na Hora de Identificar os Dentes
+              Chega de Travar na Hora de estudar Anatomia Dental
             </h2>
             <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: 'rgba(252,251,248,0.78)' }}>
               Tenha vistas anatômicas, comparações, características, raízes, cúspides e diferenças entre os dentes prontas para consultar sempre que precisar.
