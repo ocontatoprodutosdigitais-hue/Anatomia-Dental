@@ -135,7 +135,7 @@ export function PricingSection() {
               <p className="text-sm" style={{ color: 'rgba(252,251,248,0.75)' }}>
                 Valor total: <span className="line-through">{TOTAL_PRICE}</span>
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#D7A52D' }}>
+              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#FFFFFF' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>
