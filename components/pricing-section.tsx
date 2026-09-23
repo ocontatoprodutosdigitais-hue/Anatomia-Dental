@@ -21,9 +21,9 @@ const includedFeatures: [string, string][] = [
 ];
 
 const bonuses = [
-  'Bônus #1 — Revisão Express de Anatomia Dental',
-  'Bônus #2 — Teste Sua Identificação Dental',
-  'Bônus #3 — Flashcards de Anatomia Dental',
+  'Bônus #1 — Mapa Visual de Erupção Dental',
+  'Bônus #2 — Checklist de Identificação Dental',
+  'Bônus #3 — Revisão Rápida de Anatomia Dental',
 ];
 
 function goToCheckout(url: string) {
