@@ -12,7 +12,7 @@ export function WhatYouGet() {
     <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#FCFBF8' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#08124D' }}>
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#103F6E' }}>
             Anatomia Dental Organizada em 6 Coleções Visuais
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#5B6B8A' }}>
@@ -24,8 +24,8 @@ export function WhatYouGet() {
           {collections.map(([count, title, description, funcao]) => (
             <article
               key={title}
-              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(8,18,77,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#1255C8] hover:shadow-[0_14px_30px_rgba(8,18,77,0.12)]"
-              style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(8,18,77,0.12)' }}
+              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(16,63,110,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#1255C8] hover:shadow-[0_14px_30px_rgba(16,63,110,0.12)]"
+              style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(16,63,110,0.12)' }}
             >
               <div className="absolute inset-x-6 top-0 h-1 rounded-b-full bg-[#1255C8] opacity-70 transition-opacity duration-250 group-hover:opacity-100" />
               <div className="flex items-baseline gap-2">
@@ -37,10 +37,10 @@ export function WhatYouGet() {
                 </span>
               </div>
               <div className="mt-4 flex flex-1 flex-col">
-                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#08124D' }}>{title}</h3>
+                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#103F6E' }}>{title}</h3>
                 <p className="mt-3 text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>{description}</p>
               </div>
-              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#5B6B8A', borderColor: 'rgba(8,18,77,0.12)' }}>
+              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#5B6B8A', borderColor: 'rgba(16,63,110,0.12)' }}>
                 <span className="font-bold uppercase tracking-wide" style={{ color: '#1255C8' }}>Função:</span>{' '}
                 {funcao}
               </p>

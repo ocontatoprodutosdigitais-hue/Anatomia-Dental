@@ -39,7 +39,7 @@ export function PricingSection() {
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#08124D' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#103F6E' }}>
             
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
@@ -52,9 +52,9 @@ export function PricingSection() {
           <div
             className="relative flex w-full flex-col rounded-[22px] p-6 pt-10 sm:p-8 sm:pt-11"
             style={{
-              backgroundColor: '#08124D',
+              backgroundColor: '#103F6E',
               border: '2px solid #1255C8',
-              boxShadow: '0 24px 55px rgba(8, 18, 77, 0.45)',
+              boxShadow: '0 24px 55px rgba(16, 63, 110, 0.45)',
             }}
           >
             {/* Badge OFERTA ESPECIAL */}

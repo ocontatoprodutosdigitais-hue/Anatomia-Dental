@@ -41,7 +41,7 @@ function StarRow() {
 
 export function BonusSection() {
   return (
-      <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#08124D' }}>
+      <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#103F6E' }}>
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
@@ -64,8 +64,8 @@ export function BonusSection() {
               className="bonus-card flex w-full flex-col rounded-[20px] p-5 sm:p-6"
               style={{
                 backgroundColor: '#FCFBF8',
-                border: '1px solid rgba(8,18,77,0.12)',
-                boxShadow: '0 12px 30px rgba(8, 18, 77, 0.28)',
+                border: '1px solid rgba(16,63,110,0.12)',
+                boxShadow: '0 12px 30px rgba(16, 63, 110, 0.28)',
                 transition: 'all 250ms ease',
               }}
             >
@@ -93,7 +93,7 @@ export function BonusSection() {
               </div>
 
               {/* Nome */}
-              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#08124D' }}>
+              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#103F6E' }}>
                 {bonus.name}
               </h3>
 
@@ -103,7 +103,7 @@ export function BonusSection() {
               </p>
 
               {/* Preço + selo */}
-              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: 'rgba(8,18,77,0.12)' }}>
+              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: 'rgba(16,63,110,0.12)' }}>
                 <span className="text-sm line-through" style={{ color: '#5B6B8A' }}>
                   {bonus.oldPrice}
                 </span>
@@ -123,7 +123,7 @@ export function BonusSection() {
         .bonus-card:hover {
           transform: translateY(-4px);
           border-color: #1255C8;
-          box-shadow: 0 20px 42px rgba(8, 18, 77, 0.34);
+          box-shadow: 0 20px 42px rgba(16, 63, 110, 0.34);
         }
       `}</style>
     </section>

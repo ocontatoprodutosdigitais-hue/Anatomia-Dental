@@ -18,7 +18,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             <span className="text-xs sm:text-sm font-bold uppercase tracking-[0.24em]" style={{ color: '#1255C8', fontFamily: 'var(--font-inter)' }}>
               Anatomia Dental
             </span>
-            <h1 className="font-grotesk text-4xl sm:text-5xl md:text-6xl leading-[1.08] text-balance text-center max-w-2xl" style={{ color: '#08124D' }}>
+            <h1 className="font-grotesk text-4xl sm:text-5xl md:text-6xl leading-[1.08] text-balance text-center max-w-2xl" style={{ color: '#103F6E' }}>
               Guia Visual de Anatomia Dental
             </h1>
             <p className="text-sm sm:text-base leading-relaxed text-pretty text-center max-w-md sm:max-w-lg" style={{ color: '#5B6B8A' }}>
@@ -34,7 +34,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
                 src="/images/dental/hero-colecao.png"
                 alt="Coleção Guia Visual de Anatomia Dental: 6 volumes, páginas internas com dentes, vistas anatômicas e comparações"
                 className="w-full h-auto object-contain"
-                style={{ filter: 'drop-shadow(0 24px 45px rgba(8, 18, 77, 0.25))' }}
+                style={{ filter: 'drop-shadow(0 24px 45px rgba(16, 63, 110, 0.25))' }}
               />
             </div>
           </div>
@@ -67,7 +67,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
             <p className="text-xs sm:text-sm text-center" style={{ color: '#5B6B8A' }}>Acesso imediato após a confirmação do pagamento.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-6 pt-2">
-            {['Pagamento único', 'Consulte quando precisar', '7 dias de garantia', 'Acesso imediato'].map((label) => <div key={label} className="flex items-center gap-1.5 text-xs sm:text-sm font-medium" style={{ color: '#08124D' }}><span className="rounded-full flex items-center justify-center" style={{ backgroundColor: '#22C55E', color: '#FFFFFF', width: '18px', height: '18px' }}><Check size={11} strokeWidth={3} aria-hidden="true" /></span>{label}</div>)}
+            {['Pagamento único', 'Consulte quando precisar', '7 dias de garantia', 'Acesso imediato'].map((label) => <div key={label} className="flex items-center gap-1.5 text-xs sm:text-sm font-medium" style={{ color: '#103F6E' }}><span className="rounded-full flex items-center justify-center" style={{ backgroundColor: '#22C55E', color: '#FFFFFF', width: '18px', height: '18px' }}><Check size={11} strokeWidth={3} aria-hidden="true" /></span>{label}</div>)}
           </div>
         </div>
       </div>
