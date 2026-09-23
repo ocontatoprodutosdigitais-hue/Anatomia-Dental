@@ -20,7 +20,7 @@ export function FinalCta() {
               Chega de Travar na Hora de estudar Anatomia Dental
             </h2>
             <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: 'rgba(252,251,248,0.78)' }}>
-              Tenha vistas anatômicas, comparações, características, raízes, cúspides e diferenças entre os dentes prontas para consultar sempre que precisar.
+              Tenha a anatomia dental organizada de forma visual para consultar, comparar e revisar sempre que precisar
             </p>
           </div>
 
