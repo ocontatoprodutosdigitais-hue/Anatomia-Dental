@@ -5,7 +5,7 @@ import { Check, Star } from 'lucide-react';
 /* ===== Constantes de preço e checkout (fáceis de editar) ===== */
 const PRICE = 'R$ 19,90';
 const TOTAL_PRICE = 'R$ 80,80';
-const CHECKOUT_URL = 'https://pay.cakto.com.br/jfu5bmc_1099946';
+const CHECKOUT_URL = 'https://pay.cakto.com.br/t2jycye_1130420';
 
 /* O que está incluído na oferta (destaque principal do pacote) */
 const highlightFeature: [string, string] = ['140', 'páginas visuais de Anatomia Dental'];
@@ -135,7 +135,7 @@ export function PricingSection() {
               <p className="text-sm" style={{ color: 'rgba(252,251,248,0.75)' }}>
                 Valor total: <span className="line-through">{TOTAL_PRICE}</span>
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#D7A52D' }}>
+              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#FFFFFF' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>

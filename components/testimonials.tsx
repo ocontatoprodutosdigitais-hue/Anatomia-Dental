@@ -17,19 +17,19 @@ const depoimentos = [
     text: 'Eu sempre confundia alguns dentes porque nos slides parecia tudo muito parecido. Com as comparações lado a lado ficou muito mais fácil perceber quais detalhes realmente diferenciam cada um.',
     name: 'Mariana Alves',
     role: 'Estudante de Odontologia',
-    image: '/images/dental/depoimento-1.png',
+    image: '/images/dental/depoimento-3.webp',
   },
   {
     text: 'Usei principalmente para revisar antes da prova. Em poucos minutos eu conseguia comparar incisivos, pré-molares e molares sem precisar voltar em várias aulas e anotações.',
     name: 'Camila Rocha',
     role: 'Estudante de Odontologia',
-    image: '/images/dental/depoimento-2.png',
+    image: '/images/dental/depoimento-2.webp',
   },
   {
     text: 'Gostei porque não é aquele material cheio de texto. Eu abro no celular, vejo as imagens, comparo as características e consigo revisar exatamente o ponto que estava me confundindo.',
     name: 'Lucas Ferreira',
     role: 'Estudante de Odontologia',
-    image: '/images/dental/depoimento-3.png',
+    image: '/images/dental/depoimento-1.webp',
   },
 ];
 
@@ -63,15 +63,12 @@ export function Testimonials() {
               </p>
 
               <div className="mt-auto pt-2 flex items-center gap-3">
-                <div
-                  className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden"
-                  style={{ boxShadow: '0 2px 6px rgba(16,63,110,0.15)' }}
-                >
+                <div className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden">
                   <img
                     src={d.image || "/placeholder.svg"}
                     alt={`Foto de ${d.name}, ${d.role}`}
                     className="w-full h-full object-cover"
-                    style={{ objectPosition: 'center 20%' }}
+                    style={{ objectPosition: 'center center' }}
                     loading="lazy"
                   />
                 </div>
